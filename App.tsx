@@ -2,6 +2,7 @@ import React from 'react';
 import { Truck, MapPin, Clock, ArrowRight, ShieldCheck, Recycle } from 'lucide-react';
 import ChatWidget from './components/ChatWidget';
 import VoiceAgent from './components/VoiceAgent';
+import RouteCalculator from './components/RouteCalculator';
 
 const App: React.FC = () => {
   return (
@@ -126,6 +127,17 @@ const App: React.FC = () => {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Coverage Section */}
+        <section id="cobertura" className="py-20 bg-white border-t border-gray-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold text-secondary">Cobertura Nacional</h2>
+              <p className="mt-4 text-gray-600">Calcula tu ruta y obtén una cotización instantánea para cualquier traslado de e-waste en los 50 estados.</p>
+            </div>
+            <RouteCalculator />
           </div>
         </section>
 
