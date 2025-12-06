@@ -1,0 +1,7 @@
+{
+  "name": "eWaste sin limites",
+  "description": "Plataforma de logística para reciclaje electrónico con asistencia IA 24/7",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
